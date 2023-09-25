@@ -1,0 +1,23 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "博客",
+  "main": "index.js",
+  "author": "brooks",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-sakura": "^1.2.1",
+    "vuepress-sidebar-atuo": "^1.0.4"
+  },
+  "dependencies": {
+    "@vuepress/plugin-pwa": "^1.9.10",
+    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
