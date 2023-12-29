@@ -22,7 +22,7 @@ module.exports = [
   },
   {
     text: "框架原理篇",
-    link: "/principle/ways/手写篇.md",
+    link: "/principle/ways/vue.md",
     // items: [
     //   { text: "手写篇", link: "/principle/ways/手写篇.md" },
     //   { text: "vue相关", link: "/principle/ways/vue.md" },
