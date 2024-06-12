@@ -69,10 +69,7 @@ module.exports = [
     ],
   },
   {
-    text: "相关链接",
-    items: [
-      { text: "Github", link: "https://github.com/DueKer" },
-      { text: "掘金", link: "https://juejin.cn/user/2119514148582727" },
-    ],
+    text: "相关文档超链接",
+    link:"/xglink/link.md"
   },
 ];

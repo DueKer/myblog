@@ -591,13 +591,16 @@ const AsyncComponent = defineAsyncComponent({
 
 
 ### 30.前端路由是什么？什么是路由懒加载？
+
 Vue 3 的前端路由是指在前端应用程序中实现路由功能，而不是在服务器端实现。前端路由可以通过 Vue Router 库实现，它提供了一套简单易用的 API，可以在 Vue 应用程序中实现路由功能。 
 路由懒加载是一种前端路由的优化技术，它可以将不同路由对应的组件按需加载，从而减少首次加载的文件大小，提高应用程序的性能。路由懒加载可以通过 import() 函数动态导入组件，并在路由切换时按需加载组件。 
 
 在 Vue 3 中，可以使用 Vue Router 4 实现前端路由和路由懒加载。
 
-以下是一个 Vue 3 的前端路由和路由懒加载的示例： 
+以下是一个 Vue 3 的前端路由和路由懒加载的示例：  
+
 ```
+
 import { createRouter, createWebHistory } from 'vue-router';
 
 const Home = () => import('./views/Home.vue');
@@ -629,19 +632,22 @@ export default router;
 在 Vue 应用程序中使用路由，可以在 main.js 文件中引入路由实例，并将其添加到 Vue 应用程序的根实例中。 
 
 ```
- 
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 
 const app = createApp(App);
 
+
+
+
 app.use(router);
 app.mount('#app');
 
 ```
-在上面的示例中，使用 app.use(router) 将路由实例添加到 Vue 应用程序的根实例中。在应用程序中，可以使用`<router-link>`` 和`<router-view> `组件来实现路由导航和路由切换。
+在上面的示例中，使用 app.use(router) 将路由实例添加到 Vue 应用程序的根实例中。在应用程序中，可以使用`<router-link>`和`<router-view>`组件来实现路由导航和路由切换。
 
 总的来说，Vue 3 的前端路由是指在前端应用程序中实现路由功能，而不是在服务器端实现。路由懒加载是一种前端路由的优化技术，它可以将不同路由对应的组件按需加载，从而减少首次加载的文件大小，提高应用程序的性能。在 Vue 3 中，可以使用 Vue Router 4 实现前端路由和路由懒加载。
 
 
+  
