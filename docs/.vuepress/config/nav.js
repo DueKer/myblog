@@ -13,21 +13,14 @@ module.exports = [
     // ],
   },
   {
-    text: "进阶篇",
-    link: "/middle/expressways/1.md",
-    // items: [
-    //   { text: "js基础", link: "/handbook/advanced/1.md" },
-    //   { text: "js进阶", link: "/handbook/advanced/2.md" },
-    // ],
-  },
-  {
     text: "框架原理篇",
     link: "/principle/ways/vue.md",
-    // items: [
-    //   { text: "手写篇", link: "/principle/ways/手写篇.md" },
-    //   { text: "vue相关", link: "/principle/ways/vue.md" },
-    //   { text: "react相关", link: "/principle/ways/react.md" },
-    // ],
+    
+  },
+  {
+    text: "全栈相关的东西",
+    link: "/middle/expressways/1.md",
+   
   },
   {
     text: "手写相关篇",
@@ -35,19 +28,13 @@ module.exports = [
   },
   {
     text: "性能优化相关",
-    link: "/performance/basic/1.md",
-    // items: [
-    //   { text: "手写篇", link: "/principle/ways/手写篇.md" },
-    //   { text: "vue相关", link: "/principle/ways/2.md" },
-    // ],
+    link: "/performance/basic/webpack.md",
+    
   },
   {
     text: "每日一题",
-    link: "/daytopic/topic/1.md",
-    // items: [
-    //   { text: "算法题", link: "/daytopic/topic/1.md" },
-    //   { text: "手写题", link: "/daytopic/1.md" },
-    // ],
+    link: "/daytopic/topic/everyday.md",
+   
   },
   {
     text: "更多",

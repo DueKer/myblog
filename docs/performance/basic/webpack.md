@@ -1,6 +1,4 @@
 ---
-title: Vue2
+title: Webpack
 sidebar: true 
 ---
-
-# vue2
