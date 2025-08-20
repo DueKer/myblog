@@ -10,10 +10,10 @@ yarn run build
 cd docs/.vuepress/dist
 
 git init
-git 
+git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:DueKer/myblog.git master:gh-pages
+git push -f git@github.com:DueKer/myblog.git main:gh-pages
 
 cd -
