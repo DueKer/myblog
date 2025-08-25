@@ -24,7 +24,7 @@ module.exports = [
   },
   {
     text: "手写相关篇",
-    link: "/written/basic/1.md",
+    link: "/written/basic/代码手写.md",
   },
   {
     text: "性能优化相关",
